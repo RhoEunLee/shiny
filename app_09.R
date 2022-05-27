@@ -101,3 +101,8 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
+
+usethis::use_git_config(user.name = "RhoEunLee", user.email = "rho1226@g.skku.edu")
+usethis::create_github_token()
+credentials::set_github_pat()
